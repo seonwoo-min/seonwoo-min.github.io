@@ -1,0 +1,37 @@
+experiences:
+
+- place: "Amazon Web Services"
+  time: "(Expected) Oct 2023 -"
+  title: "Applied Scientist"
+  subtitle: "Health AI"
+  category: "work"
+
+- place: "NAVER Cloud"
+  time: "May 2023 - Sep 2023"
+  title: "Research Intern"
+  subtitle: "Hypeerscale AI Information Extraction Team"
+  category: "work"
+
+- place: "LG AI Research"
+  time: "Aug 2021 - Sep 2022"
+  title: "Research Scientist"
+  subtitle: "<a href=\"https://www.lgresearch.ai/ourwork/research?tab=PA\" target=\"_blank\">Fundamental Research Laboratory</a> <br/> Manager: <a href=\"https://moontae.people.uic.edu/\" target=\"_blank\">Prof. Moontae Lee</a> and <a href=\"http://web.eecs.umich.edu/~honglak/\" target=\"_blank\">Prof. Honglak Lee</a>"
+  category: "work"
+
+- place: "Seoul National University"
+  time: "Mar 2015 - Aug 2021"
+  title: "Ph.D. Student"
+  subtitle: "<a href=\"http://data.snu.ac.kr\" target=\"_blank\">Data Science & Artificial Intelligence Laboratory</a> <br/> Advisor: <a href=\"https://scholar.google.com/citations?user=Bphl_fIAAAAJ&hl=en\" target=\"_blank\">Prof. Sungroh Yoon</a>"
+  category: "school"
+
+- place: "NAVER CLOVA"
+  time: "Jul 2019 - Aug 2019"
+  title: "Research Intern"
+  subtitle: "Optical Character Recognition Team"
+  category: "work"
+
+- place: "Seoul National University"
+  time: "Mar 2011 - Feb 2015"
+  title: "B.S. Student"
+  subtitle: "Electrical and Computer Engineering <br/> Cum Laude (GPA 3.64/4.3)"
+  category: "school"

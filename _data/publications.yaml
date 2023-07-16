@@ -1,0 +1,218 @@
+papers:
+  - title: "Massively Parallel Evaluation and Computational Prediction of the Activities and Specificities of 17 Small Cas9s"
+    authors: "Sang-Yeon Seo, <b>Seonwoo Min</b>, Sungtae Lee, Jung Hwa Seo, Jinman Park, Hui Kwon Kim, Myungjae Song, Dawoon Bae, Sung-Rae Cho, Hyongbum Henry Kim"
+    venue: "Nature Methods 2023"
+    paper_pdf: "https://www.nature.com/articles/s41592-023-01875-2"
+    webtool: "http://deepcrispr.info/DeepSmallCas9"
+    crispr: y
+      
+  - title: "Deep Learning Models to Predict the Editing Efficiencies and Outcomes of Diverse Base Editors"
+    authors: "Nahye Kim, Sungchul Choi, Sungjae Kim, Myungjae Song, Jung Hwa Seo, <b>Seonwoo Min</b>, Jinman Park, Sung-Rae Cho, Hyongbum Henry Kim"
+    venue: "Nature Biotechnology 2023"
+    paper_pdf: "https://www.nature.com/articles/s41587-023-01792-x"
+    webtool: "http://deepcrispr.info/DeepBE"
+    crispr: y
+
+  - title: "Sniper2L, a High-Fidelity Cas9 Variant With High Activity"
+    authors: "Young-hoon Kim, Nahye Kim, Ikenna Okafor, Sungchul Choi, <b>Seonwoo Min</b>, Joonsun Lee, Keunwoo Choi, Janice Choi, Vinayak Harihar, Youngho Kim, Jin-Soo Kim, Jungjoon K. Lee, Taekjip Ha, Hyongbum Henry Kim"
+    venue: "Nature Chemical Biology 2023"
+    paper_pdf: "https://www.nature.com/articles/s41589-023-01279-5"
+    webtool: "http://deepcrispr.info/DeepSniper"
+    crispr: y
+
+  - title: "Improving Generalization Performance of Electrocardiogram Classification Models"
+    authors: "Hyeongrok Han, Seongjae Park, <b>Seonwoo Min</b>, Hyun-Soo Choi, Eunji Kim, Hyunki Kim, Sangha Park, Jinkook Kim, Junsang Park, Junho An, Kwanglo Lee, Wonsun Jeong, Sangil Chon, Kwonwoo Ha, Myungkyu Han, Sungroh Yoon"
+    venue: "Physiological Measurement 2023"
+    paper_pdf: "https://iopscience.iop.org/article/10.1088/1361-6579/acb30f"
+    bio: y
+    
+  - title: "Pure Transformers Are Powerful Graph Learners"
+    authors: "Jinwoo Kim, Dat Tien Nguyen, <b>Seonwoo Min</b>, Sungjun Cho, Moontae Lee, Honglak Lee, Seunghoon Hong"
+    venue: "NeurIPS 2022: Neural Information Processing Systems"
+    paper_pdf: "https://openreview.net/forum?id=um2BxfgkT2_"
+    code: "https://github.com/jw9730/tokengt"
+    slides: "https://docs.google.com/presentation/d/1v2ieNHQXqAxwDXFRU9U8GndsAeoXRrpmTwrFT1gOVXk/edit#slide=id.gf7fa391b6b_0_0"
+    poster: "https://drive.google.com/file/d/1-jBO4x-FBDkSYspU5cinCGOzTX3nPdUS/view"
+    ml: y
+    
+  - title: "Transformers Meet Stochastic Block Models"
+    authors: "Sungjun Cho, <b>Seonwoo Min</b>, Jinwoo Kim, Moontae Lee, Honglak Lee, Seunghoon Hong"
+    venue: "NeurIPS 2022: Neural Information Processing Systems"
+    paper_pdf: "https://openreview.net/forum?id=w_jvWzNXd6n"
+    code: "https://github.com/sc782/SBM-Transformer"
+    poster: "https://drive.google.com/file/d/1-sMv-OZikHtbtl30SdC-BzGQ8rIznQHm/view"
+    blog: "https://www.lgresearch.ai/blog/view?seq=293"
+    ml: y
+
+  - title: "Grounding Visual Representations With Texts for Domain Generalization"
+    authors: "<b>Seonwoo Min</b>, Nokyung Park, Siwon Kim, Seunghyun Park, Jinkyu Kim"
+    venue: "ECCV 2022: European Conference on Computer Vision"
+    paper_pdf: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970037.pdf"
+    code: "https://github.com/seonwoo-min/GVRT"
+    data: "https://github.com/seonwoo-min/GVRT"
+    slides: "https://docs.google.com/presentation/d/19qqA6FGlei_ilBEyS8ZLWnpu6X1RZcPbhWwfEk0WfDY/edit?usp=sharing"
+    poster: "https://drive.google.com/file/d/1-g68BKvM71OS7dohZuq3tQJHysJd1uOv/view"
+    blog: "https://www.lgresearch.ai/blog/view?seq=247"
+    selected: y
+    ml: y
+
+  - title: "TargetNet: Functional microRNA Target Prediction With Deep Neural Networks"
+    authors: "<b>Seonwoo Min</b>, Byunghan Lee, Sungroh Yoon"
+    venue: "Bioinformatics 2022"
+    paper_pdf: "https://academic.oup.com/bioinformatics/article/38/3/671/6408435"
+    code: "https://github.com/seonwoo-min/TargetNet"
+    selected: y
+    bio: y
+
+  - title: "DNA Privacy: Analyzing Malicious DNA Sequences Using Deep Neural Networks"
+    authors: "Ho Bae, <b>Seonwoo Min</b>, Hyun-Soo Choi, Sungroh Yoon"
+    venue: "TCBB 2022: IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+    paper_pdf: "https://www.computer.org/csdl/journal/tb/2022/02/09170842/1motfakVrgY"
+    bio: y
+
+  - title: "Supervised Neural Discrete Universal Denoiser for Adaptive Denoising"
+    authors: "Sungmin Cha<sup>‡</sup>, <b>Seonwoo Min<sup>‡</sup></b>, Sungroh Yoon and Taesup Moon"
+    venue: "ArXiv 2021"
+    paper_pdf: "https://arxiv.org/abs/2111.12350"
+    ml: y
+
+  - title: "Generation of a More Efficient Prime Editor 2 by Addition of the Rad51 DNA-Binding Domain"
+    authors: "Myungjae Song, Jung Min Lim, <b>Seonwoo Min</b>, Jeong-Seok Oh, Dong Young Kim, Jae-Sung Woo, Hiroshi Nishimasu, Sung-Rae Cho, Sungroh Yoon, Hyongbum Henry Kim"
+    venue: "Nature Communications 2021"
+    paper_pdf: "https://www.nature.com/articles/s41467-021-25928-2"
+    webtool: "http://deepcrispr.info/PEselector"
+    crispr: y
+    
+  - title: "Towards High Generalization Performance on Electrocardiogram Classification"
+    authors: "Hyeongrok Han, Seongjae Park, <b>Seonwoo Min</b>, Hyun-Soo Choi, Eunji Kim, Hyunki Kim, Sangha Park, Jinkook Kim, Junsang Park, Junho An, Kwanglo Lee, Wonsun Jeong, Sangil Chon, Kwonwoo Ha, Myungkyu Han, Sungroh Yoon"
+    venue: "CinC 2021: Computing in Cardiology (Winner (6, 4-lead) and Runner-up (12, 3, 2-lead) in PhysioNet Challenge)"
+    paper_pdf: "https://ieeexplore.ieee.org/document/9344302"
+    bio: y
+
+  - title: "Pre-training of Deep Bidirectional Protein Sequence Representations With Structural Information"
+    authors: "<b>Seonwoo Min</b>, Seunghyun Park, Siwon Kim, Hyun-Soo Choi, Sungroh Yoon"
+    venue: "IEEE Access 2021"
+    venue2: "NeurIPS LMRL Workshop 2019: Neural Information Processing Systems Workshop on Learning Meaningful Representations of Life"
+    venue3: "MLCB Workshop 2019: Workshop on Machine Learrning in Computational Biology (<b>Oral</b>)"
+    paper_pdf: "https://ieeexplore.ieee.org/document/9529198"
+    code: "https://github.com/seonwoo-min/PLUS"
+    slides: "https://drive.google.com/file/d/105bWKmLMH5extYjFgbzAq1MudGhDKy47/view"
+    selected: y
+    ml: y
+    bio: y
+
+  - title: "Protein Transfer Learning Improves Identification of Heat Shock Protein Families"
+    authors: "<b>Seonwoo Min</b>, Hyungi Kim, Byunghan Lee, Sungroh Yoon"
+    venue: "PLOS ONE 2021"
+    paper_pdf: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0251865"
+    code: "https://github.com/seonwoo-min/DeeperHSP"
+    bio: y
+    
+  - title: "Learned Embeddings From Deep Learning to Visualize and Predict Protein Sets"
+    authors: "Christian Dallago, Konstantin Schütze, Michael Heinzinger, Tobias Olenyi, Maria Littmann, Amy X. Lu, Kevin K. Yang, <b>Seonwoo Min</b>, Sungroh Yoon, James T. Morton, Burkhard Rost"
+    venue: "Current Protocols 2021"
+    venue2: "NeurIPS LMRL Workshop 2020: Neural Information Processing Systems Workshop on Learning Meaningful Representations of Life"
+    venue3: "ISMB BioVis Poster Track 2020: International Conference on Intelligent Systems for Molecular Biology BioVis Poster Track"
+    paper_pdf: "https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/cpz1.113"
+    webtool: "https://embed.protein.properties/"
+    code: "https://docs.bioembeddings.com/v0.2.3/"
+    poster: "https://f1000research.com/posters/9-876"
+    ml: y
+    bio: y
+    
+  - title: "Recording of Elapsed Time and Temporal Information About Biological Events Using Cas9"
+    authors: "Jihye Park, Jung Min Lim, Seok-Jae Heo, Jinman Park, Yoojin Chang, Hui Kwon Kim, Dongmin Jung, Ji Hea Yu, <b>Seonwoo Min</b>, Sungroh Yoon, Sung-Rae Cho, Inkyung Jung, Taeyoung Park, Hyongbum Henry Kim"
+    venue: "Cell 2021"
+    paper_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(21)00014-3"
+    crispr: y
+    
+  - title: "Predicting the Efficiency of Prime Editing Guide RNAs in Human Cells"
+    authors: "Hui Kwon Kim, GooSang Yu, Jinman Park, <b>Seonwoo Min</b>, Sungtae Lee, Sungroh Yoon, Hyongbum Henry Kim"
+    venue: "Nature Biotechnology 2020 (<b>100+ citations</b>)"
+    paper_pdf: "https://www.nature.com/articles/s41587-020-0677-y"
+    webtool: http://deepcrispr.info/DeepPE"
+    crispr: y
+
+  - title: "Prediction of the Sequence-Specific Cleavage Activity of Cas9 Variants"
+    authors: "Nahye Kim, Hui Kwon Kim, Sungtae Lee, Jung Hwa Seo, Jae Woo Choi, Jinman Park, <b>Seonwoo Min</b>, Sungroh Yoon, Sung-Rae Cho, Hyongbum Henry Kim"
+    venue: "Nature Biotechnology 2020 (<b>100+ citations</b>)"
+    paper_pdf: "https://www.nature.com/articles/s41587-020-0537-9"
+    webtool: "http://deepcrispr.info/DeepSpCas9variants"
+    crispr: y
+
+  - title: "Bag of Tricks for Electrocardiogram Classification With Deep Neural Networks"
+    authors: <b>Seonwoo Min</b>, Hyun-Soo Choi, Hyeongrok Han, Minji Seo, Jin-Kook Kim, Junsang Park, Sunghoon Jung, Il-Young Oh, Byunghan Lee, Sungroh Yoon" 
+    venue: "CinC 2020: Computing in Cardiology (6th Place in PhysioNet Challenge)"
+    paper_pdf: "https://ieeexplore.ieee.org/document/9344302" 
+    code: "https://github.com/seonwoo-min/PhysioNet-Challange-2020"
+    slides: "https://drive.google.com/file/d/1-wKGYr7D4wHEMQGU2ucM-722PgntbEru/view"
+    poster: "https://drive.google.com/file/d/1-xUD4pza7bPlciF_dNr1rNP4Ccr6hCm_/view"
+    bio: y
+
+  - title: "Sequence-Specific Prediction of the Efficiencies of Adenine and Cytosine Base Editors"
+    authors: "Myungjae Song, Hui Kwon Kim, Sungtae Lee, Younggwang Kim, Sang-Yeon Seo, Jinman Park, Nahye Kim, Jae Woo Choi, Hyewon Jang, Jeong Hong Shin, <b>Seonwoo Min</b>, Jhejiu Quan, Jihun Kim, Hoon-Chul Kang, Sungroh Yoon, Hyongbum Henry Kim"
+    venue: "Nature Biotechnology 2020 (<b>50+ citations</b>)"
+    paper_pdf: "https://www.nature.com/articles/s41587-020-0573-5"
+    webtool: "http://deepcrispr.info/DeepBaseEditor"
+    crispr: y
+
+  - title: "High-Throughput Analysis of the Activities of xCas9, SpCas9-NG and SpCas9 at Matched and Mismatched Target Sequences in Human Cells"
+    authors: "Hui Kwon Kim, Sungtae Lee, Younggwang Kim, Jinman Park, <b>Seonwoo Min</b>, Jae Woo Choi, Tony Huang, Sungroh Yoon, David Liu, Hyongbum Henry Kim"
+    venue: "Nature Biomedical Engineering 2020 (<b>50+ citations</b>)"
+    paper_pdf: "https://www.nature.com/articles/s41551-019-0505-1"
+    webtool: "http://deepcrispr.info/DeepxCas9"
+    crispr: y
+    
+  - title: "SpCas9 Activity Prediction by DeepSpCas9, a Deep Learning-based Model With High Generalization Performance"
+    authors: "Hui Kwon Kim, Younggwang Kim, Sungtae Lee, <b>Seonwoo Min</b>, Jung Yoon Bae, Jae Woo Choi, Jinman Park, Dongmin Jung, Sungroh Yoon, Hyongbum Henry Kim"
+    venue: "Science Advances 2019 (<b>100+ citations</b>)"
+    paper_pdf: "https://www.science.org/doi/10.1126/sciadv.aax9249"
+    webtool: "http://deepcrispr.info/DeepSpCas9"
+    crispr: y
+
+  - title: "Learning-Based Instantaneous Drowsiness Detection Using Wired and Wireless EEG"
+    authors: "Hyun-Soo Choi, <b>Seonwoo Min</b>, Siwon Kim, Ho Bae, Jee-Eun Yoon, Inha Hwang, Dana Oh, Chang-Ho Yun, Sungroh Yoon"
+    venue: "IEEE Access 2019"
+    paper_pdf: "https://ieeexplore.ieee.org/document/8861308"
+    bio: y
+    
+  - title: "Deep Learning Improves Prediction of CRISPR-Cpf1 Guide RNA Activity"
+    authors: "Hui Kwon Kim<sup>‡</sup>, <b>Seonwoo Min<sup>‡</sup></b>, Myungjae Song, Soobin Jung, Jae Woo Choi, Younggwang Kim, Sangeun Lee, Sungroh Yoon, Hyongbum Kim"
+    venue: "Nature Biotechnology 2018 (<b>200+ citations</b>)"
+    venue2: "ISMB Highlights Track 2018: International Conference on Intelligent Systems for Molecular Biology Highlights Track (<b>Oral</b>)"
+    paper_pdf: "https://www.nature.com/articles/nbt.4061"
+    webtool: "http://deepcrispr.info"
+    slides: "https://drive.google.com/file/d/106N6EOXuGTnb-bf2NiRF8N2yMbqRBf_a/view"
+    selected: y
+    ml: y
+    crispr: y
+
+  - title: "Polyphonic Music Generation With Sequence Generative Adversarial Networks"
+    authors: "Sang-gil Lee, Uiwon Hwang, <b>Seonwoo Min</b>, Sungroh Yoon"
+    venue: "ArXiv 2017"
+    paper_pdf: "https://arxiv.org/abs/1710.11418"
+    code: "https://github.com/L0SG/seqgan-music"
+
+  - title: "Deep Learning in Bioinformatics"
+    authors: "<b>Seonwoo Min</b>, Byunghan Lee, Sungroh Yoon"
+    venue: "Briefings in Bioinformatics 2017 (<b>1400+ citations</b>)"
+    paper_pdf: "https://academic.oup.com/bib/article/18/5/851/2562808"
+    selected: y
+    bio: y
+
+  - title: "Deep Recurrent Neural Network-Based Identification of Precursor MicroRNAs"
+    authors: "Seunghyun Park, <b>Seonwoo Min</b>, Hyun-Soo Choi, Sungroh Yoon"
+    venue: "NeurIPS 2017: Neural Information Processing Systems (<b>100+ citations</b>)" 
+    paper_pdf: "https://proceedings.neurips.cc/paper/2017/hash/b2531e7bb29bf22e1daae486fae3417a-Abstract.html"
+    code: "https://github.com/eleventh83/deepMiRGene"
+    slides: "https://drive.google.com/file/d/101xz3os0rWo_TzgyTorzu2fkseq0KpTt/view"
+    poster: "https://drive.google.com/file/d/1-y_1GcOzxHXceJuDWd2uLy6I9krHzbFg/view"
+    ml: y
+    bio: y
+
+  - title: "Neural Universal Discrete Denoiser"
+    authors: "Taesup Moon, <b>Seonwoo Min</b>, Byunghan Lee, Sungroh Yoon"
+    venue: "NeurIPS 2016: Neural Information Processing Systems" 
+    paper_pdf: "https://papers.nips.cc/paper_files/paper/2016/hash/f83630579d055dc5843ae693e7cdafe0-Abstract.html"
+    poster: "https://drive.google.com/file/d/102ftsibgUvnAhXmlZ7v3K7cjfMDx25Yh/view"
+    ml: y

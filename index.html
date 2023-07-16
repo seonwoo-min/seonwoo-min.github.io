@@ -1,0 +1,405 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  <p>
+    <b>Starting in Oct. 2023, I'm joining Amazon Web Services Health AI as an Applied Scientist.</b><br/> 
+    I'm currently doing a Research Internship at Information Extraction Team, NAVER Cloud. I will be interning until September 8th. 
+  </p>
+
+  <p>
+    Lately, I'm broadly interested in training, evaluating, and understanding trustworthy machine learning models (e.g. robustness, explainability, and uncertainty). 
+    Throughout my Ph.D. (2015-2021), my research interest was primarily at the intersection of machine learning and computational biology. 
+    I worked on a few challenging problems such as CRISPR activity prediction, training of protein language models, and abnormality identification from ECGs. 
+  <p>
+    
+  <p>
+    I was a research scientist at Fundamental Research Laboratory, LG AI Research for 1.2 years.
+    I received my Ph.D. at Data Science & Artificial Intelligence Laboratory from Seoul National University in 2021. 
+    I received B.S. in Electrical and Computer Engineering from Seoul National University in 2015.
+    I spent two summers doing internships at NAVER CLOVA in 2019 and NAVER Cloud in 2023.
+    I was a recipient of the BK21 Plus Outstanding Researcher Award in 2020, the Microsoft Research Asia Fellowship Nomination Award in 2018, and the NRF Global Ph.D. Fellowship in 2016-2020.
+  </p>
+</div>
+
+<!-- ========== NEWS ========== -->
+<div class="docs-section" id="news">
+  <h4>News</h4>
+  <ul style="margin-bottom: -10px">
+    <li>[May 2023] I started a research internship at <a href="https://www.navercloudcorp.com" target="_blank">Hyperscalie AI Information Extraction Team, NAVER Cloud</a>.</li>
+    <li>[Apr 2023] <a href="https://www.nature.com/articles/s41592-023-01875-2" target="_blank">One paper</a> was accepted to Nature Methods.</li>
+    <li>[Apr 2023] <a href="https://www.nature.com/articles/s41587-023-01792-x" target="_blank">One paper</a> was accepted to Nature Biotechnology.</li>
+    <li>[Feb 2023] <a href="https://www.nature.com/articles/s41589-023-01279-5" target="_blank">One paper</a> was accepted to Nature Chemical Biology.</li>
+    <li>[Jan 2023] <a href="https://iopscience.iop.org/article/10.1088/1361-6579/acb30f" target="_blank">One paper</a> was accepted to Physiological Measurement.</li>
+    <li>[Sep 2022] It was my last month at <a href="https://www.lgresearch.ai/" target="_blank">LG AI Research</a>. I'm so grateful to my colleagues and excited for my next adventure! </li>
+    <li>[Sep 2022] Two papers were accepted to NeurIPS 2022 (<a href="https://openreview.net/forum?id=um2BxfgkT2_" target="_blank">TokenGT</a> and <a href="https://openreview.net/forum?id=w_jvWzNXd6n" target="_blank">SBM-Transformer</a>).</li>
+    <li>[Jul 2022] One paper was accepted to ECCV 2022 (<a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970037.pdf" target="_blank">GVRT</a>)!</li>
+    <li>[Dec 2021] I gave an invited talk on <a href="https://drive.google.com/file/d/10B1qXkAavVZA53iJnlXBWtyMfUPDCK4M/view" target="_blank">Protein Language Models</a> at Open Tech Seminar of <a href="https://www.lgresearch.ai/" target="_blank">LG AI Research</a>.</li>
+    <li>[Oct 2021] One paper was accepted to Bioinformatics (<a href="https://academic.oup.com/bioinformatics/article/38/3/671/6408435" target="_blank">TargetNet</a>)!</li>  
+  </ul>
+  <a class="navbar-link" href={{ "/previous_news.html" | prepend: site.baseurl }}><font size=2>***Click for Previous News***</font></a>
+
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
+  <sup>‡</sup> indicates equal contribution.
+  </p>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+    <li><div class="button" data-ref="#papers-ml">ML</div></li>
+    <li><div class="button" data-ref="#papers-bio">COMP BIO</div></li>
+    <li><div class="button" data-ref="#papers-crispr">CRISPR</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.venue2 %}
+            <p><i><font size=2>Also presented at {{ paper.venue2 }}</font></i></p>
+          {% endif %}
+          {% if paper.venue3 %}
+          <p><i><font size=2>Also presented at {{ paper.venue3 }}</font></i></p>
+          {% endif %}
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.webtool %}
+              <a class="button" href="{{ paper.webtool }}" target="_blank">Webtool</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.blog %}
+              <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.venue2 %}
+            <p><i><font size=2>Also presented at {{ paper.venue2 }}</font></i></p>
+          {% endif %}
+          {% if paper.venue3 %}
+          <p><i><font size=2>Also presented at {{ paper.venue3 }}</font></i></p>
+          {% endif %}
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.webtool %}
+              <a class="button" href="{{ paper.webtool }}" target="_blank">Webtool</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+            
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.blog %}
+              <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-ml">
+      {% assign ml_papers = site.data.publications.papers | where: "ml", "y" %}
+      {% for paper in ml_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.venue2 %}
+            <p><i><font size=2>Also presented at {{ paper.venue2 }}</font></i></p>
+          {% endif %}
+          {% if paper.venue3 %}
+          <p><i><font size=2>Also presented at {{ paper.venue3 }}</font></i></p>
+          {% endif %}
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.webtool %}
+              <a class="button" href="{{ paper.webtool }}" target="_blank">Webtool</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.blog %}
+              <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-bio">
+      {% assign bio_papers = site.data.publications.papers | where: "bio", "y" %}
+      {% for paper in bio_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.venue2 %}
+            <p><i><font size=2>Also presented at {{ paper.venue2 }}</font></i></p>
+          {% endif %}
+          {% if paper.venue3 %}
+          <p><i><font size=2>Also presented at {{ paper.venue3 }}</font></i></p>
+          {% endif %}
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.webtool %}
+              <a class="button" href="{{ paper.webtool }}" target="_blank">Webtool</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.blog %}
+              <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-crispr">
+      {% assign crispr_papers = site.data.publications.papers | where: "crispr", "y" %}
+      {% for paper in crispr_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          {% if paper.venue2 %}
+            <p><i><font size=2>Also presented at {{ paper.venue2 }}</font></i></p>
+          {% endif %}
+          {% if paper.venue3 %}
+          <p><i><font size=2>Also presented at {{ paper.venue3 }}</font></i></p>
+          {% endif %}
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.webtool %}
+              <a class="button" href="{{ paper.webtool }}" target="_blank">Webtool</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.blog %}
+              <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+<!-- ========== AWARDS ========== -->
+<div class="docs-section" id="awards">
+  <h4>Awards, Honors, and Scholarships</h4>
+
+  <h5>Awards</h5>
+  <ul>
+    <li>[2021] Nomination Award, Schmidt Science Fellowship</li>
+    <li>[2021] Winner (6/4-lead) & Runner-up (12/3/2-lead), PhysioNet/Computing in Cardiology Challenge</li>
+    <li><b>[2020] BK21 Plus Outstanding Researcher Award, Minister of Education, South Korea</b></li>
+    <li>[2019] National R&D Excellence Top 100 Award, Ministry of Science and ICT, South Korea</li>
+    <li>[2019] Travel Award, Neural Information Processing Systems LMRL Workshop</li>
+    <li><b>[2018] Nomination Award, Microsoft Research Asia Fellowship</b></li>
+    <li>[2018] Research Excellence Award, Biological Research Information Center, South Korea</li>
+    <li>[2018] Outstanding Highly-cited Paper Award, Electrical and Computer Engineering Department, SNU</li>
+    <li>[2018] Distinguished TA Award, Innovation Center for Engineering Education, SNU</li>
+    <li>[2017] Highly-cited Paper Paper Award, Briefings in Bioinformatics, Oxford University Press</li>
+    <li>[2017] Travel Award, Neural Information Processing Systems</li>
+    <li>[2015] Gold Award (Individual) & Silver Award (Team), Korea University Ski Team Association</li>
+  </ul>
+
+  <h5>Honors</h5>
+  <ul>
+    <li>[2020] Chief Graduate Student, Data Science & Artificial Intelligence Laboratory, SNU</li>
+    <li>[2019] Assistant Chief Graduate Student, Data Science & Artificial Intelligence Laboratory, SNU</li>
+    <li>[2018] Graduate Student of the Year, Data Science & Artificial Intelligence Laboratory, SNU</li>
+    <li><b>[2015] Captain, Seoul National University Ski Team</b></li>
+  </ul>
+
+  <h5>Scholarships</h5>
+  <ul>
+    <li><b>[2016 - 2020] Global Ph.D. Fellowship (~100,000$), National Research Foundation of Korea</b></li>
+    <li>[2018 - 2019] Global Capability Enhancement Program (~6,000$), National Research Foundation of Korea</li>
+    <li>[2011 - 2014] National Science Scholarship (~25,000$), Korea Student Aid Foundation</li>
+  </ul>
+</div>
+
+<!-- ========== Academic Activities ========== -->
+<div class="docs-section" id="academic">
+  <h4>Academic Activities</h4>
+
+  <h5>Invited Talks</h5>
+  <ul>
+    <li>[Dec 2021] Open Tech Seminar @ LG AI Research</li>
+    <li>[Jun 2018] Summer Conference @ Korean Institute of Electronics and Information Engineers</li>
+    <li>[Jun 2018] Korea Computer Congress @ Korean Institute of Information Scientists and Engineers</li>
+    <li>[Sep 2017] Invited Seminar @ Korea Institute of Radiology & Medical Sciences</li>
+    <li>[Apr 2017] Bioinformatics Research Exchange @ Bioinformatics Institute of Seoul National University</li>
+    <li>[Dec 2016] Invited Seminar @ Laboratory of Genome Editing, Yonsei University</li>
+  </ul>
+
+
+  <h5>Reviewer</h5>
+  <ul>
+    <li>[2021 - 2023] International Conference on Learning Representations</li>
+    <li>[2020 - 2023] International Conference on Machine Learning (<b>Top Reviewer in 2020</b>)</li>
+    <li>[2019 - 2023] Neural Information Processing Systems (<b>Top Reviewer in 2019</b>)</li>
+    <li>[2023] Journal of Chemoinformatics</li>
+    <li>[2017 & 2021] Methods</li>
+  </ul>
+
+
+  <h5>Teaching Assistance</h5>
+  <ul>
+    <li>[Spring 2021] Design Project for Electrical Devices & Systems @ Seoul National University</li>
+    <li>[Fall 2019] Design Project for Electrical Devices & Systems @ Seoul National University</li>
+    <li>[Spring 2019] Design Project for Electrical Devices & Systems @ Seoul National University</li>
+    <li>[Fall 2018] IoT &middot Artificial Intelligence &middot Big Data (<b>Head TA</b>) @ Seoul National University</li>
+    <li>[Fall 2017] Deep Learning @ Seoul National University</li>
+    <li>[Fall 2015] Biocomputation @ Seoul National University</li>
+  </ul>
+</div>
+
+<!-- ========== CURRICULUM VITAE ========== -->
+<div class="docs-section" id="cv">
+  <h4>Curriculum Vitae</h4>
+
+  <p>Full CV in <a href={{ "/assets/cv/SeonwooMin_CurriculumVitae.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+   </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- ========== ACKNOWLEDGEMENT ========== -->
+<div class="docs-section" id="template">
+    <h4>Acknowledgement</h4>
+    <p>
+      This website uses the template from <a href="https://web.stanford.edu/~msaveski/" target="_blank">Prof. Martin Saveski</a>. Thanks for sharing!
+    </p>
+</div>
