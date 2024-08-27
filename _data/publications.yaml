@@ -1,4 +1,17 @@
 papers:
+  - title: "Polyphonic Music Generation With Sequence Generative Adversarial Networks"
+    authors: "Sang-gil Lee, Uiwon Hwang, <b>Seonwoo Min</b>, Sungroh Yoon"
+    venue: "Journal of KIISE 2024"
+    paper_pdf: "https://arxiv.org/abs/1710.11418"
+    code: "https://github.com/L0SG/seqgan-music"
+    ml: y
+
+  - title: "Contrastive Time-Series Anomaly Detection"
+    authors: "Hyungi Kim, Siwon Kim, <b>Seonwoo Min</b>, Byunghan Lee"
+    venue: "TKDE 2023: IEEE Transactions on Knowledge and Data Engineering"
+    paper_pdf: "https://www.computer.org/csdl/journal/tk/5555/01/10325644/1ShuUGyrRtu"
+    ml: y
+
   - title: "Massively Parallel Evaluation and Computational Prediction of the Activities and Specificities of 17 Small Cas9s"
     authors: "Sang-Yeon Seo, <b>Seonwoo Min</b>, Sungtae Lee, Jung Hwa Seo, Jinman Park, Hui Kwon Kim, Myungjae Song, Dawoon Bae, Sung-Rae Cho, Hyongbum Henry Kim"
     venue: "Nature Methods 2023"
@@ -28,7 +41,7 @@ papers:
     
   - title: "Pure Transformers Are Powerful Graph Learners"
     authors: "Jinwoo Kim, Dat Tien Nguyen, <b>Seonwoo Min</b>, Sungjun Cho, Moontae Lee, Honglak Lee, Seunghoon Hong"
-    venue: "NeurIPS 2022: Neural Information Processing Systems"
+    venue: "NeurIPS 2022: Neural Information Processing Systems (<b>100+ citations</b>)"
     paper_pdf: "https://openreview.net/forum?id=um2BxfgkT2_"
     code: "https://github.com/jw9730/tokengt"
     slides: "https://docs.google.com/presentation/d/1v2ieNHQXqAxwDXFRU9U8GndsAeoXRrpmTwrFT1gOVXk/edit#slide=id.gf7fa391b6b_0_0"
@@ -78,7 +91,7 @@ papers:
 
   - title: "Generation of a More Efficient Prime Editor 2 by Addition of the Rad51 DNA-Binding Domain"
     authors: "Myungjae Song, Jung Min Lim, <b>Seonwoo Min</b>, Jeong-Seok Oh, Dong Young Kim, Jae-Sung Woo, Hiroshi Nishimasu, Sung-Rae Cho, Sungroh Yoon, Hyongbum Henry Kim"
-    venue: "Nature Communications 2021"
+    venue: "Nature Communications 2021 (<b>50+ citations</b>)"
     paper_pdf: "https://www.nature.com/articles/s41467-021-25928-2"
     webtool: "http://deepcrispr.info/PEselector"
     crispr: y
@@ -91,7 +104,7 @@ papers:
 
   - title: "Pre-training of Deep Bidirectional Protein Sequence Representations With Structural Information"
     authors: "<b>Seonwoo Min</b>, Seunghyun Park, Siwon Kim, Hyun-Soo Choi, Sungroh Yoon"
-    venue: "IEEE Access 2021"
+    venue: "IEEE Access 2021 (<b>50+ citations</b>)"
     venue2: "NeurIPS LMRL Workshop 2019: Neural Information Processing Systems Workshop on Learning Meaningful Representations of Life"
     venue3: "MLCB Workshop 2019: Workshop on Machine Learrning in Computational Biology (<b>Oral</b>)"
     paper_pdf: "https://ieeexplore.ieee.org/document/9529198"
@@ -110,7 +123,7 @@ papers:
     
   - title: "Learned Embeddings From Deep Learning to Visualize and Predict Protein Sets"
     authors: "Christian Dallago, Konstantin Schütze, Michael Heinzinger, Tobias Olenyi, Maria Littmann, Amy X. Lu, Kevin K. Yang, <b>Seonwoo Min</b>, Sungroh Yoon, James T. Morton, Burkhard Rost"
-    venue: "Current Protocols 2021"
+    venue: "Current Protocols 2021 (<b>50+ citations</b>)"
     venue2: "NeurIPS LMRL Workshop 2020: Neural Information Processing Systems Workshop on Learning Meaningful Representations of Life"
     venue3: "ISMB BioVis Poster Track 2020: International Conference on Intelligent Systems for Molecular Biology BioVis Poster Track"
     paper_pdf: "https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/cpz1.113"
@@ -128,7 +141,7 @@ papers:
     
   - title: "Predicting the Efficiency of Prime Editing Guide RNAs in Human Cells"
     authors: "Hui Kwon Kim, GooSang Yu, Jinman Park, <b>Seonwoo Min</b>, Sungtae Lee, Sungroh Yoon, Hyongbum Henry Kim"
-    venue: "Nature Biotechnology 2020 (<b>100+ citations</b>)"
+    venue: "Nature Biotechnology 2020 (<b>200+ citations</b>)"
     paper_pdf: "https://www.nature.com/articles/s41587-020-0677-y"
     webtool: http://deepcrispr.info/DeepPE"
     crispr: y
@@ -151,21 +164,21 @@ papers:
 
   - title: "Sequence-Specific Prediction of the Efficiencies of Adenine and Cytosine Base Editors"
     authors: "Myungjae Song, Hui Kwon Kim, Sungtae Lee, Younggwang Kim, Sang-Yeon Seo, Jinman Park, Nahye Kim, Jae Woo Choi, Hyewon Jang, Jeong Hong Shin, <b>Seonwoo Min</b>, Jhejiu Quan, Jihun Kim, Hoon-Chul Kang, Sungroh Yoon, Hyongbum Henry Kim"
-    venue: "Nature Biotechnology 2020 (<b>50+ citations</b>)"
+    venue: "Nature Biotechnology 2020 (<b>100+ citations</b>)"
     paper_pdf: "https://www.nature.com/articles/s41587-020-0573-5"
     webtool: "http://deepcrispr.info/DeepBaseEditor"
     crispr: y
 
   - title: "High-Throughput Analysis of the Activities of xCas9, SpCas9-NG and SpCas9 at Matched and Mismatched Target Sequences in Human Cells"
     authors: "Hui Kwon Kim, Sungtae Lee, Younggwang Kim, Jinman Park, <b>Seonwoo Min</b>, Jae Woo Choi, Tony Huang, Sungroh Yoon, David Liu, Hyongbum Henry Kim"
-    venue: "Nature Biomedical Engineering 2020 (<b>50+ citations</b>)"
+    venue: "Nature Biomedical Engineering 2020 (<b>100+ citations</b>)"
     paper_pdf: "https://www.nature.com/articles/s41551-019-0505-1"
     webtool: "http://deepcrispr.info/DeepxCas9"
     crispr: y
     
   - title: "SpCas9 Activity Prediction by DeepSpCas9, a Deep Learning-based Model With High Generalization Performance"
     authors: "Hui Kwon Kim, Younggwang Kim, Sungtae Lee, <b>Seonwoo Min</b>, Jung Yoon Bae, Jae Woo Choi, Jinman Park, Dongmin Jung, Sungroh Yoon, Hyongbum Henry Kim"
-    venue: "Science Advances 2019 (<b>100+ citations</b>)"
+    venue: "Science Advances 2019 (<b>200+ citations</b>)"
     paper_pdf: "https://www.science.org/doi/10.1126/sciadv.aax9249"
     webtool: "http://deepcrispr.info/DeepSpCas9"
     crispr: y
@@ -178,7 +191,7 @@ papers:
     
   - title: "Deep Learning Improves Prediction of CRISPR-Cpf1 Guide RNA Activity"
     authors: "Hui Kwon Kim<sup>‡</sup>, <b>Seonwoo Min<sup>‡</sup></b>, Myungjae Song, Soobin Jung, Jae Woo Choi, Younggwang Kim, Sangeun Lee, Sungroh Yoon, Hyongbum Kim"
-    venue: "Nature Biotechnology 2018 (<b>200+ citations</b>)"
+    venue: "Nature Biotechnology 2018 (<b>300+ citations</b>)"
     venue2: "ISMB Highlights Track 2018: International Conference on Intelligent Systems for Molecular Biology Highlights Track (<b>Oral</b>)"
     paper_pdf: "https://www.nature.com/articles/nbt.4061"
     webtool: "http://deepcrispr.info"
@@ -187,15 +200,9 @@ papers:
     ml: y
     crispr: y
 
-  - title: "Polyphonic Music Generation With Sequence Generative Adversarial Networks"
-    authors: "Sang-gil Lee, Uiwon Hwang, <b>Seonwoo Min</b>, Sungroh Yoon"
-    venue: "ArXiv 2017"
-    paper_pdf: "https://arxiv.org/abs/1710.11418"
-    code: "https://github.com/L0SG/seqgan-music"
-
   - title: "Deep Learning in Bioinformatics"
     authors: "<b>Seonwoo Min</b>, Byunghan Lee, Sungroh Yoon"
-    venue: "Briefings in Bioinformatics 2017 (<b>1400+ citations</b>)"
+    venue: "Briefings in Bioinformatics 2017 (<b>1800+ citations</b>)"
     paper_pdf: "https://academic.oup.com/bib/article/18/5/851/2562808"
     selected: y
     bio: y
