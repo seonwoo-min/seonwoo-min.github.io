@@ -1,12 +1,18 @@
 experiences:
 
-- place: "Amazon Web Services"
-  time: "(Expected) Oct 2023 -"
+- place: "Amazon"
+  time: "Jan 2025 -"
   title: "Applied Scientist"
-  subtitle: "Health AI"
+  subtitle: "<a href=\"https://www.aboutamazon.com/news/retail/amazon-rufus\" target=\"_blank\">Stores Foundational AI</a>"
   category: "work"
 
-- place: "NAVER Cloud"
+- place: "Amazon"
+  time: "Oct 2023 - Jan 2025"
+  title: "Applied Scientist"
+  subtitle: "<a href=\"https://aws.amazon.com/comprehend/medical\" target=\"_blank\">AWS Health AI</a>"
+  category: "work"
+
+- place: "NAVER"
   time: "May 2023 - Sep 2023"
   title: "Research Intern"
   subtitle: "Hyperscale AI Information Extraction Team"
@@ -15,7 +21,7 @@ experiences:
 - place: "LG AI Research"
   time: "Aug 2021 - Sep 2022"
   title: "Research Scientist"
-  subtitle: "<a href=\"https://www.lgresearch.ai/ourwork/research?tab=PA\" target=\"_blank\">Fundamental Research Laboratory</a> <br/> Manager: <a href=\"https://moontae.people.uic.edu/\" target=\"_blank\">Prof. Moontae Lee</a> and <a href=\"http://web.eecs.umich.edu/~honglak/\" target=\"_blank\">Prof. Honglak Lee</a>"
+  subtitle: "<a href=\"https://www.lgresearch.ai/ourwork/research?tab=PA\" target=\"_blank\">Fundamental Research Laboratory</a>"
   category: "work"
 
 - place: "Seoul National University"
@@ -24,7 +30,7 @@ experiences:
   subtitle: "<a href=\"http://data.snu.ac.kr\" target=\"_blank\">Data Science & Artificial Intelligence Laboratory</a> <br/> Advisor: <a href=\"https://scholar.google.com/citations?user=Bphl_fIAAAAJ&hl=en\" target=\"_blank\">Prof. Sungroh Yoon</a>"
   category: "school"
 
-- place: "NAVER CLOVA"
+- place: "NAVER"
   time: "Jul 2019 - Aug 2019"
   title: "Research Intern"
   subtitle: "Optical Character Recognition Team"
